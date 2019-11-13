@@ -1,0 +1,3 @@
+﻿CREATE VIEW vwv_Table1
+AS
+SELECT Col1 FROM Table1
