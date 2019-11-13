@@ -67,4 +67,12 @@
     <Build Include="dbo\Tables\Table1.sql" />
     <Build Include="dbo\Views\vwv_Table1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DeployMe.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TestDatabase_SSDT.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
