@@ -74,6 +74,11 @@
     </SqlCmdVariable>
   </ItemGroup>
   <ItemGroup>
-    <None Include="TestDatabase_SSDT.publish.xml" />
+    <None Include="TestDatabase_SSDT.publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DeployMe.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
